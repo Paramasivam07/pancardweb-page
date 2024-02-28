@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pancard web page</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="head">
+        <img class="logo1" src="data:image/jpeg;base64,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" height="70px" width="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img class="logo2" src="https://www.pancardapp.com/assets/img/logo.png?v=20190406" height="" width="220">
+    </div>
+    <br>
+    <h2 class="head1">New PAN Card Application Form</h2><br>
+    <!--Section 1-->
+    <div class="section1">
+        <p>APPLICANT NAME DETAILS</p>
+        <P class="sam">Name as given in Aadhaar Card</P>
+        <input type="text" placeholder="Enter your Full Name here" style="height: 25px; width: 1180px;"><br>
+        <table><br><br>
+            <tr><td>
+            <p class="sam">Surname/Lastname</p></td>
+            <td><p class="sam">Firstname</p></td>
+            <td><p class="sam">Middle Name<span class="sam"><h6 class="sam">[Father or Husband Name]</h6></span></p></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter your Surename" style="height: 25px; width: 388px;;"> </td> 
+                <td><input class="test" type="text" placeholder="Enter your First Name here" style="height: 25px; width: 388px;"></td>
+                <td><input type="text" placeholder="Enter your Middle Name here" style="height: 25px;width: 388px;"></td>
+                
+            </tr>
+        </table><br><br>
+            <tr>
+                <td><P class="sam">Name as given in Aadhaar Card</P></td>
+                <select style="height: 25px; width: 1180px;">
+                    <option>Select Name Identity Proof</option>
+                    <option>Aadhaar Card</option>
+                </select>
+            </tr>
+         </table>
+    </div><br><br>
+    <!--Section2-->
+    <div class="section2">
+        <p class="father">FATHER'S NAME DETAIL</p>
+        <table>
+            <tr>
+                <td class="sam"><p>Surename/Last Name</p></td>
+                <td class="sam"><p>First Name</p></td>
+                <td class="sam"><p>Middle Name</p></td>
+            </tr>
+            <tr class="test">
+                <td><input type="text" placeholder="Enter your Name here" style="height: 25px; width: 388px;"></td>
+                <td><input type="text" placeholder="Enter your Name here" style="height: 25px; width: 388px;"></td>
+                <td><input type="text" placeholder="Enter your Name here" style="height: 25px; width: 388px;"></td>
+            </tr>
+         </table>
+        </div><br><br>
+        <!--Section3-->
+        <div class="section3">
+            <p class="sam">Applicant's Date Of Birth</p><br>
+            <select name="Day" style="height: 40px; width: 65px;">
+                <option>Day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+
+            </select>
+            <select  style="height: 40px;width: 85px;">
+                <option>Month</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>    
+            </select>
+            <select name="year" style="height: 40px; width: 90px;">
+                <option>Year</option>
+                <option>2023</option>
+                <option>2022</option>
+                <option>2021</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
+                <option>2010</option>
+                <option>2009</option>
+                <option>2008</option>
+                <option>2007</option>
+                <option>2006</option>
+                <option>2005</option>
+                <option>2004</option>
+                <option>2004</option>
+                <option>2003</option>
+                <option>2002</option>
+                <option>2001</option>
+            </select><br><br><br>
+            <p class="sam">Date Of Birth</p>
+            <select style="height: 25px;width: 1180px;">
+                <option>Select Date of Birth Proof</option>
+                <option>Passport</option>
+                <option>Aadhaar Card</option>
+                <option>Election Card/Voter ID</option>
+                <option>Driving License</option>
+                <option>Pension payment order</option>
+                <option>Marriage Certificate</option>
+            </select>
+        </div><br><br>
+        <!--section4-->
+        <div class="section4">
+            <p class="sam">Address Proof*</p>
+            <select style="height: 25px;width: 1180px;">
+                <option>Select Address Proof</option>
+                <option>Passport</option>
+                <option>Aadhaar Card</option>
+                <option>Election Card/Voter ID</option>
+                <option>Driving License</option>
+                <option>Pension payment order</option>
+                <option>Marriage Certificate</option>
+            </select>
+            <p><h6>*PAN Card will be sent in courier as per Address proof</h6></p> <br><br>
+            <p class="sam">Mobile Number</p>
+            <input type="Number" placeholder="+91"style="height:25px; width: 35px;"><input type="number" placeholder="Enter your Mobile number here" style="height: 25px; width: 1138px;">
+            <br><br>
+            <p class="sam">Emsil ID</p>
+            <input type="mail id" placeholder="Enter your Email ID here" style="height: 25px; width: 1180px;">
+               
+        </div><br><br>
+        <button class="submit">SUBMIT</button><br><br><br><br>
+        
+</body>
+</html>

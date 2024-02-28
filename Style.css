@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.head{
+    background-color: rgba(92, 101, 233, 0.055);
+    box-shadow: 10px 30px 14px -32px rgba(0,0,0,0.75);
+}
+.logo1{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.head1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sam{
+    color: blue;
+    font-style: italic;
+}
+.section1{
+    background-color:rgba(92, 101, 233, 0.055);
+    height: 270px;
+    width: 1200px;
+    margin-left: 150px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.section2{
+    background-color: rgba(92, 101, 233, 0.055);
+    height: 92px;
+    width: 1200px;
+    margin-left: 150px;
+    padding-left: 15px;
+    padding-top: 15px; 
+}
+.section3{
+    background-color: rgba(92, 101, 233, 0.055);
+    height: 175px;
+    width: 1200px;
+    margin-left: 150px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.section4{
+    background-color: rgba(92, 101, 233, 0.055);
+    height: 220px;
+    width: 1200px;
+    margin-left: 150px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.submit{
+    background-color: rgb(121, 121, 219);
+    padding: 10px 65px;
+    color: white;
+    margin-left: 650px;
+    border: none;
+    letter-spacing: 1px;
+}
+.submit:hover{
+    background-color: rgb(24, 24, 224);
+}
+.test{
+    border-spacing: 150px;
+}
+.father{
+    font-style: italic;
+}
